@@ -5,6 +5,7 @@ body{
 nav{
     background-color: #1f5b25;
     padding: 15px;
+    position: fixed;
 }
 nav a{
     color: #fff;
@@ -25,7 +26,8 @@ nav a:first-child img{
 }
 
 .banner{
-    background-image: url(../img/banner.jpg);
+    background-image: url(/img/banner.jpg);
     background-position: center center;
     background-size: cover;
+    height: 400px;
 }
